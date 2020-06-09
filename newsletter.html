@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MarinaDuran_TheBeatles</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.7.95/css/materialdesignicons.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <nav class="navbar navbar-light bg-light">
+                <img class="logo" src="imagenes/logo_beatles.png">
+                <a href="index.html">Home</a>
+                <a href="integrantes.html">Integrantes</a>
+                <a href="discografia.html">Discografía</a>
+                <a href="historia.html">Historia</a>
+                <a class="navbar-brand" href="newsletter.html">Newsletter</a>
+            </nav>
+        </header>
+        <h1>Newsletter</h1>
+        <div class="modal-form">
+            <div class="form-title">
+                <h3>Querés recibir el Newsletter?</h3>
+            </div>
+<!-- Button trigger modal -->
+            <button type="button" class="btn form-btn" data-toggle="modal" data-target="#staticBackdrop"><h4>Completa este formulario.</h4>
+            </button>  
+<!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Formulario</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="GET">
+                                <div class="form-group">
+                                    <div>
+                                        <label for="nombre">Nombre</label>
+                                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                    </div>
+                                    <div>
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="email@gmail.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="genero">Género</label>
+                                    <select class="form-control" id="genero">
+                                        <option selected disabled>Seleccionar</option>
+                                        <option>Mujer</option>
+                                        <option>Varon</option>
+                                        <option>Prefiero no decirlo</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comentarios">Comentarios</label>
+                                    <textarea class="form-control" id="comentarios" rows="3" placeholder="Deja tu comentario..."></textarea>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input checked value="si" type="checkbox" class="form-check-input" id="newslettercheck">
+                                    <label class="form-check-label" for="newslettercheck">¿Desea recibir el newsletter?</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jzy4R8EbWJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer class="container shadow p-3 mb-5 rounded">
+        <a href="https://www.facebook.com/thebeatles/"><img src="imagenes/facebook_icon.png" alt="link a facebook"></a>
+        <a>compartir en redes sociales</a>
+        <p>copyright &copy; 2020</p>
+    </footer>
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/scripts.js"></script>
+</body>
+</html>
