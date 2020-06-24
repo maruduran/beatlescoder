@@ -95,6 +95,10 @@ iframe {
     color: #ffb62d;
 }
 
+.integrantes-carousel {
+    box-shadow: 1px 1px 4px darkgrey;
+}
+
 .temporales {
     color: grey;
     margin-bottom: 50px;
