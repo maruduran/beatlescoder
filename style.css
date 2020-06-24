@@ -114,6 +114,23 @@ iframe {
     margin-bottom: 10px;
 }
 
+/*Historia*/
+
+.quote {
+    background-color: rgb(255, 250, 232);
+    padding: 20px;
+}
+
+div p {
+    font-size: small;
+}
+
+.btn-historia {
+    font-size: x-large;
+    border: none;
+    background-color: rgba(0, 0, 0, 0)
+}
+
 /*Newsletter*/
 
 .form-title {
