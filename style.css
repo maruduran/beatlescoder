@@ -33,16 +33,17 @@ footer {
     padding: 20px;
 }
 
-footer li{
+footer ul li{
     display: inline
 }
 
-footer li + li {
+footer li + li{
     margin-left: 40px;
 }
 
 .copyright {
     color: white;
+    font-size: smaller;
 }
 
 iframe {
@@ -135,14 +136,16 @@ div p {
 
 .form-title {
     color: rgb(255, 182, 45);
-    text-shadow: 1px 1px 1px #787878;
     padding-top: 20px;
     margin-bottom: 30px;
+    text-size: x-large;
 }
 
 .form-btn {
-    border: solid 1px #ffb62d;
-    color: #ffb62d;
+    font-size: smaller;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 100;
 }
 
 .modal-form {
