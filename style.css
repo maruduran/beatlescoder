@@ -81,21 +81,24 @@ iframe {
 
 /*Integrantes*/
 
-.center-text {
-    text-align: center;
+.carousel .carousel-inner {
+    height:500px
+    }
+
+.carousel .carousel-inner .carousel-item img{
+    min-height:200px;
+    object-fit: cover;
+    height: 500px;
 }
 
-ul li {
-    text-align: left;
-}
-
-.img-integrantes {
-    height: 220px;
+.carousel-caption {
+    color: #ffb62d;
 }
 
 .temporales {
     color: grey;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 /*Discografia*/
