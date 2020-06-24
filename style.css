@@ -28,8 +28,21 @@ h1 {
 }
 
 footer {
-    background-color: grey;
+    background-color: rgb(196, 196, 196);
     margin-top: 100px;
+    padding: 20px;
+}
+
+footer li{
+    display: inline
+}
+
+footer li + li {
+    margin-left: 40px;
+}
+
+.copyright {
+    color: white;
 }
 
 iframe {
