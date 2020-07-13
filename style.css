@@ -55,24 +55,18 @@ iframe {
 /*Home*/
 
 .home-box {
-    background-image: url(imagenes/beatles_home.jpeg);
-    background-size: cover;
-    padding: 100px;
-}
-
-.bg-home {
-    background-color: rgba(229, 229, 229, 0.9)
+    background-image: url(imagenes/Fondo_beatles);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .quote-home {
-    background-color: rgba(255, 182, 45, 0.9);
     font-size: 80px;
     font-family: roboto;
     font-style: bold;
     color: whitesmoke;
     text-shadow: 1px 1px 5px grey;
     line-height: 1;
-    padding-left: 50px;
 }
 
 .quote-image {
