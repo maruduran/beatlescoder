@@ -19,6 +19,12 @@ nav a {
     color: whitesmoke;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 header {
     margin-bottom: 20px;
 }
@@ -29,7 +35,7 @@ h1 {
 
 footer {
     background-color: rgb(196, 196, 196);
-    margin-top: 100px;
+    margin-bottom: 0;
     padding: 20px;
 }
 
@@ -57,10 +63,12 @@ iframe {
 .home-box {
     background-image: url(imagenes/Fondo_beatles);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
 
 .quote-home {
+    margin-top: 60%;
     font-size: 80px;
     font-family: roboto;
     font-style: bold;
