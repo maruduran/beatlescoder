@@ -27,6 +27,7 @@ nav a {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .navbar-align {
@@ -75,6 +76,10 @@ iframe {
     margin-bottom: 50px;
 }
 
+.main-padding {
+    padding-top: 120px;
+}
+
 /*Home*/
 
 .home-box {
@@ -117,7 +122,6 @@ iframe {
 
 .integrantes-carousel {
     box-shadow: 1px 1px 4px darkgrey;
-    margin-top: 20%;
 }
 
 .temporales {
@@ -133,10 +137,6 @@ iframe {
     height: 100%;
     box-shadow: 1px 1px 1px darkgrey;
     margin-bottom: 10px;
-}
-
-.discografia {
-    margin-top: 10%;
 }
 
 /*Historia*/
@@ -155,14 +155,15 @@ div p {
     border: none;
     background-color: rgba(0, 0, 0, 0)
 }
-.historia-foto {
-    margin-top: 15%;
+
+.historia-foto img {
     width: 100%;
 }
 
 .historia {
     margin-top: 5%;
     margin-bottom: 15%;
+    width: 100%;
 }
 
 /*Newsletter*/
@@ -193,10 +194,6 @@ button h4 {
 
 .modal-form {
     margin-bottom: 30px;
-}
-
-.newsletter {
-    margin-top: 10%;
 }
 
 /*Responsive*/
