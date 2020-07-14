@@ -35,26 +35,24 @@ h1 {
 
 footer {
     background-color: rgb(22, 22, 22);
-    left: 0;
-    bottom: 0;
     width: 100%;
     color: white;
     height: 100px;
     padding: 2%;
 }
-
-footer ul li{
-    display: inline
+footer ul{
+   display: flex;
+   list-style: none;
 }
 
-footer li + li{
-    margin-left: 40px;
+footer ul li{
+    padding-left: 40px;
 }
 
 .copyright {
     color: white;
     font-size: smaller;
-    margin-right: 0px;
+    margin-left: auto;
 }
 
 iframe {
