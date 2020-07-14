@@ -19,10 +19,23 @@ nav a {
     color: whitesmoke;
 }
 
+.nav-item + .nav-item {
+    margin-left: 40px;
+}
+
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.navbar-align {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-align ul {
+    margin-left: auto;
 }
 
 header {
@@ -43,6 +56,7 @@ footer {
 footer ul{
    display: flex;
    list-style: none;
+   padding-top: 20px;
 }
 
 footer ul li{
@@ -68,6 +82,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    justify-content: center;
 }
 
 .quote-home {
@@ -102,7 +117,7 @@ iframe {
 
 .integrantes-carousel {
     box-shadow: 1px 1px 4px darkgrey;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .temporales {
@@ -142,6 +157,7 @@ div p {
 }
 .historia-foto {
     margin-top: 15%;
+    width: 100%;
 }
 
 .historia {
